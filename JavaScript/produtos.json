@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "tipo": "tshirt",
+        "titulo": "T-Shirt #WHERESTHELOVE",
+        "descricao": "T-Shirt da música #WHERESTHELOVE",
+        "imagem": "image-produtos/camiseta_where.webp",
+        "preco": 10.99
+    },
+    {
+        "id": 2,
+        "tipo": "cd",
+        "titulo": "CD Elevation",
+        "descricao": "CD Elevation - 11 de novembro 2022",
+        "imagem": "image-produtos/cd-elevation.webp",
+        "preco": 20
+    },
+    {
+        "id": 3,
+        "tipo": "tshirt",
+        "titulo": "T-Shirt B.E.P Monkey Business",
+        "descricao": "T-Shirt do cd Monkey Business",
+        "imagem": "image-produtos/camiseta-black_monkey.webp",
+        "preco": 9.99
+    },
+    {
+        "id": 4,
+        "tipo": "cd",
+        "titulo": "CD Monkey Business",
+        "descricao": "CD Monkey Business - 7 de junho 2005",
+        "imagem": "image-produtos/cd-monkey_business.webp",
+        "preco": 44.99
+    },
+    {
+        "id": 5,
+        "tipo": "tshirt",
+        "titulo": "T-Shirt B.E.P Black",
+        "descricao": "T-Shirt da banda Black Eyed Peas",
+        "imagem": "image-produtos/camiseta-black_other.webp",
+        "preco": 9.99
+    },
+    {
+        "id": 6,
+        "tipo": "tshirt",
+        "titulo": "T-Shirt B.E.P Black&Red",
+        "descricao": "T-Shirt da banda Black Eyed Peas",
+        "imagem": "image-produtos/camiseta-black_red.jpg",
+        "preco": 9.99
+    },
+    {
+        "id": 7,
+        "tipo": "cd",
+        "titulo": "CD The Beginning",
+        "descricao": "CD The Beginning - 30 de novembro 2010",
+        "imagem": "image-produtos/cd-the_beginning.webp",
+        "preco": 30
+    },
+    {
+        "id": 8,
+        "tipo": "tshirt",
+        "titulo": "T-Shirt B.E.P Black&White",
+        "descricao": "T-Shirt da banda Black Eyed Peas",
+        "imagem": "image-produtos/camiseta-black_white.webp",
+        "preco": 14.99
+    },
+    {
+        "id": 9,
+        "tipo": "casa",
+        "titulo": "Quadro Black Eyed Peas",
+        "descricao": "Quadro da banda Black Eyed Peas",
+        "imagem": "image-produtos/quadro_banda.webp",
+        "preco": 35
+    }
+]

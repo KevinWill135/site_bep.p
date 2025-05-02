@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta name="author" content="Kevin De Paula" />
+    <meta name="description" content="Black Eyed Peas" />
+    <meta
+      name="keywords"
+      content="eyed, peas, Will.i.am, Taboo, Fergie, Apl.de.Ap, hip hop"
+    />
+    <meta name="robots" content="nosnippet, noarchive, noimgeindex" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Eyed Peas - Contactos</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/aa07e9ca9b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../JavaScript/contato.js"></script>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <!--** Cabeçalho **-->
+      <section class="row">
+        <!--** LOGO **-->
+        <div class="col-sm-1 logo">
+          <div class="logo-img">
+            <a href="../html/home.html">
+              <img
+                src="../imagens/image_logo_teste1.png"
+                alt="Logo"
+                title="Logo-black-eyed-peas"
+                width="110"
+              />
+            </a>
+          </div>
+        </div>
+        <nav class="col-sm-9">
+          <!--** Navegação Horizontal **-->
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a
+                class="nav-link text-success"
+                aria-current="page"
+                href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="albuns.html">Álbuns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="tour.html">Tour</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active bg-success" href="contactos.html"
+                >Contactos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="../php/store.php">Loja</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="col-sm-2 tour">
+          <!--** Banner para a tour de Las Vegas **-->
+          <a class="tourimg" href="tour.html">
+            <img
+              src="../imagens/evento-1.jpg"
+              alt="evento-Las Vegas"
+              width="100%"
+            />
+          </a>
+        </div>
+      </section>
+    </header>
+    <!--** FIM Cabeçalho **-->
+    <main>
+      <section class="container-fluid row">
+        <div id="formu" class="col-sm-12">
+          <h2 class="text-emphases bg-success">
+            Se inscreva para mais informações
+          </h2>
+          <form id="meuFomulario" name="contacto">
+            <label for="nome">Nome completo:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="nome"
+              name="nome"
+              required
+              minlength="5"
+            /><br />
+            <label for="apelido">Apelido:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="apelido"
+              name="apelido"
+              required
+              minlength="2"
+            /><br />
+            <label for="nascimento">Data de nascimento:</label>
+            <input
+              class="form-control"
+              type="date"
+              name="data-nascimento"
+              id="nascimento"
+              required
+            /><br />
+            <label for="email">E-mail:</label>
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="exemplo@exemplo.com"
+              required
+            /><br />
+            <label for="telefone">Telefone:</label>
+            <input
+              class="form-control"
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="exemplo: +351 222 888 333"
+              pattern="^\+351\s?\d{3}[\s.]?\d{3}[\s.]?\d{3}"
+              title="Formato esperado: (+351) 222 888 333"
+              required
+            /><br />
+            <label for="mensagem"
+              >Deixe uma mensagem para Black Eyed Peas:</label
+            ><br />
+            <textarea
+              class="form-control"
+              name="mensagem-bep"
+              id="mensagem"
+            ></textarea
+            ><br />
+            <button
+              class="btn btn-success"
+              type="submit"
+              onclick="validar(this.form)"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="container-fluid">
+      <!--** Rodapé **-->
+      <section class="contato row conte">
+        <div class="col-sm-4 item1" id="contatos-footer">
+          <h4 class="text-emphases bg-success">Fale conosco</h4>
+          <ul>
+            <li>
+              <a class="link text-success" href=""
+                ><i class="fa-solid fa-envelope"></i> blackeyedpeas@bep.com</a
+              >
+            </li>
+            <li>
+              <a
+                class="link text-success"
+                href="https://www.instagram.com/blackeyedpeas/"
+                ><i class="fa-brands fa-instagram"></i> @blackeyedpeas</a
+              >
+            </li>
+            <li>
+              <a
+                class="link text-success"
+                href="https://www.facebook.com/blackeyedpeas/?locale=pt_PT"
+                ><i class="fa-brands fa-facebook"></i> Black Eyed Peas</a
+              >
+            </li>
+            <li>
+              <a class="link text-success" href="https://x.com/bep"
+                ><i class="fa-brands fa-x-twitter"></i> @bep</a
+              >
+            </li>
+            <li>
+              <a
+                class="link text-success"
+                href="https://www.threads.net/@blackeyedpeas"
+                ><i class="fa-brands fa-threads"></i> blackeyedpeas</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="col-sm-6 bg-success item2"
+          id="texto1"
+          style="--bs-bg-opacity: 0.3"
+        >
+          <p>
+            Gostaríamos que aproveitassem ao máximo de nosso conteúdo e que
+            tenha a melhor experiência navegando pelo site que criamos para
+            alinhar nossos pensamentos e espírito com os fãs que tanto nos amam
+            e nos acompanham.
+          </p>
+        </div>
+      </section>
+      <div class="copy">
+        &copy; 2024 Black Eyed Peas. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
